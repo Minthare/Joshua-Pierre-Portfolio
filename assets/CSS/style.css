@@ -1,0 +1,194 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden ;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+    font-size: 20px;
+  }
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    list-style-type: none;
+   
+  }
+  
+nav a {
+    color: #b9c6ae;
+    font-weight: bold;
+  }
+  
+nav a:hover {
+    color: #fff;
+  }
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about {
+    border: 3px solid saddlebrown;
+    margin-top: 3%;
+    padding: 2%;
+}
+
+.contact {
+    border: 3px solid saddlebrown;
+    margin-top: 3%;
+}
+
+.work {
+    border: 3px solid saddlebrown;
+    margin-top: 3%; 
+}
+
+.resume {
+    border: 3px solid saddlebrown; 
+    margin-top: 3%;
+}
+
+#heading {
+    text-align: center;
+    color:brown;
+}
+
+.flexboxes
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#profile-img
+{
+    border: 1px solid black;
+}
+
+#para{
+    width: 100%;
+    text-align: left;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.workimages{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.secondbox
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#firstimg{
+    width: 700px;
+    height: 400px;
+    margin-right: 50%;
+}
+#secondimg
+{
+        width: 200px;
+}
+
+.pinfo{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+
+#email{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    margin-left: 20%;
+}
+
+#phonenumber{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    margin-left: 30%;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+    nav ul {
+        flex-direction: column;
+        max-width: 150px;
+      }
+    nav ul li {
+        margin-top: 5%;
+    }
+
+    .flexboxes
+    {
+        flex-direction: column;
+    }
+
+    #profile-img{
+        margin: auto;
+        
+    }
+
+    #para{
+        text-align: center;
+        padding: 0%;
+        font-size: 18px;
+    }
+   
+    .workimages{
+        display: flex;
+        flex-direction: column;
+        margin:0%;
+        justify-content: center;
+        width: 100%;
+    }
+    #firstimg{
+        width: 100%;
+    }
+    #secondimg
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+     
+    }
+
+    .pinfo{
+        display: flex;
+        flex-direction: column;
+        font-size: larger;
+    }
+    
+    #email{
+        display: flex;
+        margin: auto;
+        font-size: larger;
+    }
+    
+    #phonenumber{
+        display: flex;
+        font-size: larger;
+        margin: auto;
+        padding-top: 2%;
+    }
+    
+   
+}
