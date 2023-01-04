@@ -95,6 +95,16 @@ nav a:hover {
     flex-direction: column;
 }
 
+.secondimgboxes{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#firstptitle{
+    text-align: center;
+}
+
 #firstimg{
     width: 700px;
     height: 400px;
@@ -169,6 +179,12 @@ nav a:hover {
         margin-right: auto;
         width: 150px;
      
+    }
+
+    .secondimgboxes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     .pinfo{
