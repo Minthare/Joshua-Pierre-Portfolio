@@ -21,3 +21,4 @@ THEN I am taken to that deployed application.
 THEN I am presented with a responsive layout that adapts to my viewport.
 
 ## Github Pages Link:
+https://minthare.github.io/Joshua-Pierre-Portfolio/
